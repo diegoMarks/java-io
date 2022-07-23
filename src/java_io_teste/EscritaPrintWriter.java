@@ -7,7 +7,9 @@ import java.io.PrintWriter;
 public class EscritaPrintWriter {
 
 	public static void main(String[] args) throws IOException {
-
+		//Classe usada para medir o tempo de execucao do programa
+		long ini = System.currentTimeMillis();
+		
 		//Imprimindo para o fluxo primario
 		//PrintStream ps = new PrintStream("lorem2.txt");
 		
@@ -19,6 +21,10 @@ public class EscritaPrintWriter {
 		ps.println("Classe mais antiga para imprimir caracteres");
 		
 		ps.close();
+		
+		long fim = System.currentTimeMillis();
+		
+		System.out.println("Passaram: " + (fim - ini) + " Milissegundos");
 	}
 
 }
