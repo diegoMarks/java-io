@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.PrintStream;
 import java.io.PrintWriter;
 
-public class EscritaPrintWriter {
+public class EscritaPrintWriterPrintStream {
 
 	public static void main(String[] args) throws IOException {
 		//Classe usada para medir o tempo de execucao do programa
